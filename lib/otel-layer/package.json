@@ -1,0 +1,22 @@
+{
+  "name": "otel-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "esbuild": "esbuild instrumentation.js --bundle --minify --platform=node --outfile=dist/instrumentation.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.8.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.44.0",
+    "@opentelemetry/sdk-metrics": "^1.23.0",
+    "@opentelemetry/sdk-node": "^0.50.0",
+    "@opentelemetry/sdk-trace-node": "^1.23.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  }
+}

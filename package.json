@@ -1,0 +1,31 @@
+{
+  "name": "otel-lambda-profiling",
+  "version": "0.1.0",
+  "bin": {
+    "otel-lambda-profiling": "bin/otel-lambda-profiling.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "vitest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "20.12.7",
+    "aws-cdk": "2.138.0",
+    "esbuild": "^0.20.2",
+    "testcontainers": "^10.8.2",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.5",
+    "vitest": "^1.5.0"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.11",
+    "aws-cdk-lib": "2.138.0",
+    "constructs": "^10.0.0",
+    "node-fetch": "2",
+    "source-map-support": "^0.5.21"
+  }
+}
